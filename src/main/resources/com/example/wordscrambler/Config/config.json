@@ -1,0 +1,10 @@
+{
+  "MIN_CHAR_EASY" : 2,
+  "MAX_CHAR_EASY" : 4,
+
+  "MIN_CHAR_MEDIUM" : 5,
+  "MAX_CHAR_MEDIUM" : 7,
+
+  "MIN_CHAR_HARD" : 8,
+  "MAX_CHAR_HARD" : 12
+}
