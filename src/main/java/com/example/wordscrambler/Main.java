@@ -2,6 +2,7 @@ package com.example.wordscrambler;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.paint.ImagePattern;
@@ -13,8 +14,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("view/hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1500, 1000);
-        scene.setFill(new ImagePattern(new Image( Main.class.getResourceAsStream("view/images/background.jpg"))));
+        Scene scene = new Scene(fxmlLoader.load(), 1000, 750);
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();
